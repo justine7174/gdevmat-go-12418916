@@ -1,10 +1,6 @@
 void setup()
 {
   size(1280, 720, P3D);
-  surface.setLocation(
-    (displayWidth - width) / 2,
-    (displayHeight - height) / 2
-  );
   camera(0, 0, Window.eyeZ, 0, 0, 0, 0, -1, 0);
 }
 
